@@ -8,8 +8,21 @@ def swap(x, y):
     """
     return
 
+# Task 1 
+
+
+
+
+
+
 
 # Task 2
 # Invoke the function "swap" using the following scenarios:
 # - "Apple", 10
 # - 9, 17
+
+
+
+
+
+
