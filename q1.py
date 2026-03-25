@@ -13,6 +13,8 @@ def swap(x, y):
 
 if not (isinstance(x, (int, float)) and isinstance(y, (int, float))):
 return -1
+x, y = y, x
+print(f"Swapped values: {x}, {y}")
 
 
 
@@ -21,6 +23,11 @@ return -1
 # Invoke the function "swap" using the following scenarios:
 # - "Apple", 10
 # - 9, 17
+
+print("--- Q1 Task 2 ---")
+print("Scenario 1 ('Apple', 10):", swap("Apple", 10))
+print("Scenario 2 (9, 17):")
+swap(9, 17)
 
 
 
