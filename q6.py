@@ -7,8 +7,24 @@ def find_first_negative(lst):
     """
     return
 
+i = 0
+while i < len(lst):
+if lst[i] < 0:
+return lst[i]  # Found a negative, exit immediately
+i += 1
+return "No negatives"
+
+
+
+
 
 # Task 2
 # Invoke the function "find_first_negative" using the following scenario:
 # - [3, 5, -1, 7, -2, 8]
 # - [2, 10, 7, 0]
+
+print("--- Q6 Task 2 ---")
+print("Scenario 1:", find_first_negative([3, 5, -1, 7, -2, 8]))
+print("Scenario 2:", find_first_negative([2, 10, 7, 0]))
+
+
