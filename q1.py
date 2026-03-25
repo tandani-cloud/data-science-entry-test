@@ -9,9 +9,10 @@ def swap(x, y):
     return
 
 # Task 1 
+# create a function with only two variables (x and y) as inputs. If either one of x or y is not a number, the function must return -1. If both are numbers, then need to swap their values using only those two variables, and print the new swapped values.
 
-
-
+if not (isinstance(x, (int, float)) and isinstance(y, (int, float))):
+        return -1
 
 
 
